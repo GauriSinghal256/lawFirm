@@ -177,7 +177,7 @@ const Services = () => {
             
             <div className="relative">
               <img 
-                src="./public/images/"
+                src="/images/law.jpg"
                 alt="Attorney working with client" 
                 className="rounded-lg shadow-lg w-full"
               />

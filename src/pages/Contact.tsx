@@ -89,7 +89,7 @@ const Contact = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
+            <div >
               <h2 className="text-3xl font-serif font-bold text-navy-900 mb-6">
                 Get In Touch
               </h2>
@@ -99,18 +99,18 @@ const Contact = () => {
               </p>
               
               <div className="space-y-6">
-                <div className="flex items-start">
+                <div className="flex items-start border-2  hover:bg-slate-100 border-gold-600 px-3 w-2/3 py-2">
                   <div className="bg-gold-500 p-3 rounded-full mr-4">
                     <MapPin className="h-6 w-6 text-navy-900" />
                   </div>
-                  <div>
-                    <h3 className="text-lg font-serif font-bold text-navy-900 mb-2">Our Office</h3>
+                  <div className="">
+                    <h3 className="text-lg font-serif font-bold  text-navy-900 mb-2">Our Office</h3>
                     <p className="text-gray-600">123 Legal Avenue, New Delhi, India - 110001</p>
                   </div>
                 </div>
                 
-                <div className="flex items-start">
-                  <div className="bg-gold-500 p-3 rounded-full mr-4">
+                <div className="flex items-start  hover:bg-slate-100 border-2 border-gold-600 px-3 w-2/3 py-2">
+                  <div className="bg-gold-500 p-3  rounded-full mr-4">
                     <Phone className="h-6 w-6 text-navy-900" />
                   </div>
                   <div>
@@ -120,7 +120,7 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start">
+                <div className="flex items-start  hover:bg-slate-100 border-2 border-gold-600 px-3 w-2/3 py-2">
                   <div className="bg-gold-500 p-3 rounded-full mr-4">
                     <Mail className="h-6 w-6 text-navy-900" />
                   </div>
@@ -131,7 +131,7 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start">
+                <div className="flex items-start hover:bg-slate-100 border-2 border-gold-600 px-3 w-2/3 py-2">
                   <div className="bg-gold-500 p-3 rounded-full mr-4">
                     <Clock className="h-6 w-6 text-navy-900" />
                   </div>

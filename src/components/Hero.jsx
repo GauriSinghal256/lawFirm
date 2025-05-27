@@ -8,7 +8,7 @@ function Hero({ title, subtitle, buttonText, buttonLink }) {
         style={{ 
           backgroundImage: "url('https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
         }}>
-        <div className="absolute inset-0 bg-navy-900/75"></div>
+        <div className="absolute inset-0 bg-navy-700/70"></div>
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
@@ -38,7 +38,7 @@ function Hero({ title, subtitle, buttonText, buttonLink }) {
               </Link>
             </div>
           </div>
-          
+{/*           
           <div className="hidden md:block" data-aos="fade-left">
             <div className="bg-navy-900/80 p-8 rounded-lg border-l-4 border-gold-500">
               <h3 className="text-2xl font-serif font-bold text-white mb-4">Our Expertise</h3>
@@ -73,7 +73,7 @@ function Hero({ title, subtitle, buttonText, buttonLink }) {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

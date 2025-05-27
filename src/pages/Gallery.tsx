@@ -121,7 +121,7 @@ const Gallery = () => {
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl flex flex-col mx-auto justify-center items-center">
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
               Gallery
             </h1>

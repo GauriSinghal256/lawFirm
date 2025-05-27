@@ -7,10 +7,12 @@ import Services from './pages/Services';
 import Testimonials from './pages/Testimonials';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -23,6 +25,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;

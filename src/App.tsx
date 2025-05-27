@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './layout/Layout';
 import Home from './pages/Home';
@@ -8,11 +8,19 @@ import Testimonials from './pages/Testimonials';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import Disclaimer from './components/Disclaimer';
 
-const App: React.FC = () => {
+const App = () => {
+  const [showDisclaimer, setShowDisclaimer] = useState(true);
+
+  const handleAgree = () => {
+    setShowDisclaimer(false);
+  };
+
   return (
     <Router>
       <ScrollToTop />
+      {showDisclaimer && <Disclaimer onAgree={handleAgree} />}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

@@ -99,7 +99,7 @@ const Contact = () => {
               </p>
               
               <div className="space-y-6">
-                <div className="flex items-start border-2  hover:bg-slate-100 border-gold-600 px-3 w-2/3 py-2">
+                <div className="flex items-start border-2  hover:bg-slate-100 rounded-2xl border-gold-600 px-3 w-2/3 py-2">
                   <div className="bg-gold-500 p-3 rounded-full mr-4">
                     <MapPin className="h-6 w-6 text-navy-900" />
                   </div>
@@ -109,7 +109,7 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start  hover:bg-slate-100 border-2 border-gold-600 px-3 w-2/3 py-2">
+                <div className="flex items-start  hover:bg-slate-100 border-2 rounded-3xl border-gold-600 px-3 w-2/3 py-2">
                   <div className="bg-gold-500 p-3  rounded-full mr-4">
                     <Phone className="h-6 w-6 text-navy-900" />
                   </div>
@@ -120,7 +120,7 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start  hover:bg-slate-100 border-2 border-gold-600 px-3 w-2/3 py-2">
+                <div className="flex items-start  hover:bg-slate-100 border-2 rounded-3xl border-gold-600 px-3 w-2/3 py-2">
                   <div className="bg-gold-500 p-3 rounded-full mr-4">
                     <Mail className="h-6 w-6 text-navy-900" />
                   </div>
@@ -131,7 +131,7 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start hover:bg-slate-100 border-2 border-gold-600 px-3 w-2/3 py-2">
+                <div className="flex items-start hover:bg-slate-100 border-2 rounded-3xl border-gold-600 px-3 w-2/3 py-2">
                   <div className="bg-gold-500 p-3 rounded-full mr-4">
                     <Clock className="h-6 w-6 text-navy-900" />
                   </div>

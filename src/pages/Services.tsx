@@ -131,7 +131,7 @@ const Services = () => {
       
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
             <div>
               <h2 className="text-3xl font-serif font-bold text-navy-900 mb-6">
                 Our Approach to Legal Services
@@ -175,7 +175,7 @@ const Services = () => {
               </div>
             </div>
             
-            <div className="relative">
+            <div className="relative ">
               <img 
                 src="/images/law.jpg"
                 alt="Attorney working with client" 

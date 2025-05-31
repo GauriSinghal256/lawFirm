@@ -74,7 +74,7 @@ const Contact = () => {
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl flex flex-col justify-center items-center mx-auto">
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
               Contact Us
             </h1>
@@ -288,12 +288,18 @@ const Contact = () => {
               Our Location
             </h2>
             <p className="text-gray-600">
-              Conveniently located in the heart of New Delhi, our office is easily accessible via public transportation.
+              Conveniently located in the heart of Kurukshetra, our office is easily accessible via public transportation.
             </p>
           </div>
           
           <div className="rounded-lg overflow-hidden shadow-md h-96">
-            {/* Embed Google Maps iframe here */}
+            <iframe
+    className="w-full h-full border-0"
+    loading="lazy"
+    allowFullScreen
+    referrerPolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.838448648001!2d76.8679528!3d29.9690056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDU4JzA4LjQiTiA3NsKwNTInMDQuNiJF!5e0!3m2!1sen!2sin!4v1717146351234!5m2!1sen!2sin"
+  ></iframe>
             <div className="w-full h-full bg-gray-300 flex items-center justify-center">
               <p className="text-gray-600">Google Maps Embed Would Go Here</p>
             </div>
